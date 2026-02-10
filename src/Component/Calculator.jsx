@@ -24,7 +24,7 @@ function Calculator() {
 
   return (
     <div>
-      <h2>Calculator</h2>
+      <h1>Calculator</h1>
 
       <input
         type="number"
@@ -46,7 +46,7 @@ function Calculator() {
         </button>
 
         <button onClick={clearAll}>
-          Clear
+          Reset
         </button>
       </div>
 
